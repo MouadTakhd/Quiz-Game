@@ -26,28 +26,31 @@
         </div>
         <div class="quiz-info">
                 <p>Question <span id="current-question">1</span> of <span id="count"></span></p>
-                <p>Score <span id="score">8</span></p>
+                <p>Score <span id="score">0</span></p>
             </div>
         <div id="answers-container" class="answers-container">
            
         </div>
         <div class="button-div">
-        <button class="next-qs" id="next-qs">Submit</button>
+        <button class="next-qs" id="next-qs">Next</button>
+        <button style="display: none;" class="skip-qs" id="skip-qs">Skip</button>
             
         </div>
         <div class="progress-bar">
             <div class="progress" id="progress"></div>
               </div>
-              <div id="result-screen" class="screen">
-                <h1>Quiz Results</h1>
+              
 
-                <div class="result-info">
-                    <p>You scored <span id="final-result">0 </span> 
-                        out of <span id="max-quiz">5</span>
-                    </p>
-                </div>
-              </div>
      </div>
+     <div id="result-screen" class="screen">
+    <h1>Quiz Results</h1>
+    <div class="result-info">
+        <p>You scored <span id="final-result">0</span> 
+           out of <span id="max-quiz">0</span>
+        </p>
+    </div>
+    <button id="restart-quiz" class="restart-button">Restart Quiz</button>
+</div>
    </div>
    </div>
 </body>

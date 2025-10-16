@@ -1,6 +1,8 @@
 :root{
  --primary:   #e86a33;
- --bar:   #ff621f;
+ --bar:   #fa7338;
+ --info:   #e2d5c6;
+
 
  --secondary:   #828282;
  --info:   white;
@@ -91,6 +93,7 @@ div #container.container{
     border-radius: 10px;
     color: white;
     cursor: pointer;
+
 }
 #start-screen button:hover{
     background-color: var(--primary);
@@ -160,6 +163,7 @@ div #container.container{
 }
 .selected{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
 }
 .progress {
     height: 100%;
@@ -187,6 +191,49 @@ div #container.container{
     font-size: 12px;
     font-weight: bold;
     color: white;
+}
+.right-answer{
+    cursor: pointer;
+}
+.button-div{
+    display: flex;
+    justify-content: center;
+    gap: 10px
+}
+
+.skip-qs{
+     background-color: var(--info);
+    font-size: 1rem;
+    border: #f5efe6;
+    padding: 15px 23px;
+    border-radius: 10px;
+    color: black;
+    border: 2px #e86a33 solid ;
+    cursor: pointer;
+
+}
+
+#result-screen h1 {
+    color: var(--primary);
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+#result-screen .result-info {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 1.5rem;
+}
+#result-screen button.restart-button {
+    background-color: var(--primary);
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+#result-screen button.restart-button:hover {
+    background-color: #d95a1f;
 }
 
 /* animations  */
